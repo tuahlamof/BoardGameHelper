@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lycan_background"
+    android:orientation="vertical"
+    tools:context="com.android.crystal.boardgamehelper.MainGameActivity">
+
+    <Button
+        android:id="@+id/host_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Host a game"
+        android:layout_gravity="center"
+        android:layout_marginTop="450dp"
+        android:textSize="17sp"/>
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Enter the room"
+        android:layout_marginTop="40dp"
+        android:textSize="17sp"/>
+
+</LinearLayout>

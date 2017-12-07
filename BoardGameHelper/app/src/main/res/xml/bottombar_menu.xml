@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_role"
+        title="Role"
+        icon="@drawable/role_check"
+        barColorWhenSelected="#FE3D81"
+        />
+    <tab
+        id="@+id/tab_game"
+        title="Game"
+        icon="@drawable/game_board"
+        barColorWhenSelected="#5D3C35"
+        />
+</tabs>

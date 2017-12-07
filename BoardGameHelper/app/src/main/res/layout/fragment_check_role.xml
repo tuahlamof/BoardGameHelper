@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/red_blood"
+    tools:context="com.android.crystal.boardgamehelper.MainGameActivity">
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center">
+        <ImageButton
+            android:id="@+id/role_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_back"/>
+        <TextView
+            android:id="@+id/role_card_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="Tap to check your role"
+            android:textColor="@android:color/white"/>
+    </FrameLayout>
+</FrameLayout>

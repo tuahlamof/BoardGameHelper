@@ -1,0 +1,211 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/red_blood">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/player1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/man1mdpi" />
+            <TextView
+                android:id="@+id/player1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorgrey"
+                android:text="1: Lily"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/player2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/man2mdpi" />
+            <TextView
+                android:id="@+id/player2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorgrey"
+                android:text="2: Lily"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/player3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/woman4mdpi" />
+            <TextView
+                android:id="@+id/player3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorgrey"
+                android:text="3: Lily"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/player4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/man3mdpi" />
+            <TextView
+                android:id="@+id/player4_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorgrey"
+                android:text="4: Lily"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/player5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/woman1mdpi" />
+            <TextView
+                android:id="@+id/player5_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorgrey"
+                android:text="5: Lily"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/player6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/woman2mdpi" />
+            <TextView
+                android:id="@+id/player6_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorgrey"
+                android:text="6: Lily"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/player7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/woman3mdpi" />
+            <TextView
+                android:id="@+id/player7_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorgrey"
+                android:text="7: Lily"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/player8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/man5mdpi" />
+            <TextView
+                android:id="@+id/player8_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorgrey"
+                android:text="8: Lily"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/player9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/woman4mdpi" />
+            <TextView
+                android:id="@+id/player9_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorgrey"
+                android:text="9: Lily"/>
+        </LinearLayout>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/everyone_vote_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="165dp"
+        android:text="Vote" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/vote_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+
+            android:text="Host: Start Vote" />
+        <!--<Button-->
+            <!--android:id="@+id/go_night"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="470dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:text="Go into the night" />-->
+    </LinearLayout>
+
+</FrameLayout>

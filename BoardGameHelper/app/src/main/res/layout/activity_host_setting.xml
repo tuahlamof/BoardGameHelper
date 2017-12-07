@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/red_blood"
+    tools:context="com.android.crystal.boardgamehelper.GameHistoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How many players in this game: "
+            android:textSize="16sp"
+            android:textColor="@color/colorgrey"/>
+        <RadioGroup
+            android:id="@+id/rgSex"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/male"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/people9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:textColor="@color/colorgrey"/>
+            <RadioButton
+                android:id="@+id/people12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textColor="@color/colorgrey"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommand setting: "
+            android:textSize="16sp"
+            android:textColor="@color/colorgrey"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/people_recomandOne"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/male"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/recommand1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prophet, Witch, Guard, 3 town folks, 3 werewolves"
+                    android:textColor="@color/colorgrey"/>
+            </RadioGroup>
+            <RadioGroup
+                android:id="@+id/people_recomandTwo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/male"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/recommand2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Prophet, Witch, Hunter, 3 town folks, 3 werewolves"
+                    android:textColor="@color/colorgrey"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Witch: "
+            android:textSize="16sp"
+            android:textColor="@color/colorgrey" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Self-rescure at the first night"
+                android:textColor="@color/colorgrey"/>
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One action per night"
+                android:textColor="@color/colorgrey"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guard: "
+            android:textSize="16sp"
+            android:textColor="@color/colorgrey"/>
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guard the saved player will lead the death"
+            android:textColor="@color/colorgrey"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Start the game" />
+
+</LinearLayout>
